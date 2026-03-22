@@ -21,16 +21,6 @@ Site modelo desenvolvido pela **Autotech Sistemas** para demonstrar como uma ofi
 
 ---
 
-## Unidades contempladas
-
-| Unidade | Cidade |
-|---------|--------|
-| AutoMec 01 | Uberlândia – MG |
-| AutoMec 02 | Uberaba – MG |
-| AutoMec 03 | Monte Carmelo – MG |
-
----
-
 ## Diferenciais do projeto
 
 **Aparece no Google.** O site foi construído com boas práticas de SEO local — isso significa que ele tem mais chances de aparecer quando alguém pesquisar "oficina mecânica em Uberlândia" ou cidades próximas.
