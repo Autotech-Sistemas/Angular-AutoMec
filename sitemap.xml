@@ -4,9 +4,30 @@
 
   <url>
     <loc>https://automec.autotechsistemas.com.br/</loc>
-    <lastmod>2026-03-21</lastmod>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://automec.autotechsistemas.com.br/blog/revisao-cambio-automatico.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://automec.autotechsistemas.com.br/blog/revisao-bmw-fora-concessionaria.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://automec.autotechsistemas.com.br/blog/problema-eletronico-carro.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>

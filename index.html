@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" prefix="og: https://ogp.me/ns#">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -12,6 +12,11 @@
 			content="AutoMec — Oficina mecânica em Uberlândia, Uberaba e Monte Carmelo, MG. Diagnóstico eletrônico gratuito, revisão completa, peças originais e garantia. Atendemos BMW, Audi, Mercedes e mais."
 		/>
 		<meta
+			name="keywords"
+			content="oficina mecanica em Uberlandia, oficina mecanica em Uberaba, oficina mecanica em Monte Carmelo, revisao preventiva, diagnostico automotivo, oficina para BMW, oficina para Audi, oficina para Mercedes, cambio automatico, manutencao importados"
+		/>
+		<meta name="author" content="AutoMec" />
+		<meta
 			property="og:title"
 			content="AutoMec — Oficina Mecânica em Uberlândia MG | Diagnóstico, Revisão e Reparo"
 		/>
@@ -20,99 +25,162 @@
 			content="Oficina mecânica em Uberlândia, Uberaba e Monte Carmelo MG. Diagnóstico gratuito, revisão preventiva, reparo de motor e câmbio. BMW, Audi, Mercedes, Porsche, Toyota, Jeep, Volvo."
 		/>
 		<meta property="og:type" content="website" />
+		<meta
+			property="og:url"
+			content="https://automec.autotechsistemas.com.br/"
+		/>
+		<meta
+			property="og:image"
+			content="https://automec.autotechsistemas.com.br/img/of1.webp"
+		/>
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta
+			property="og:image:alt"
+			content="Fachada da AutoMec em Uberlandia"
+		/>
 		<meta property="og:locale" content="pt_BR" />
-		<meta name="robots" content="index, follow" />
+		<meta property="og:site_name" content="AutoMec" />
+		<meta
+			name="robots"
+			content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+		/>
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+			name="twitter:title"
+			content="AutoMec - Oficina Mecanica em Uberlandia MG | Diagnostico, Revisao e Reparo"
+		/>
+		<meta
+			name="twitter:description"
+			content="Diagnostico automotivo, revisao preventiva, servicos para importados e atendimento em Uberlandia, Uberaba e Monte Carmelo."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://automec.autotechsistemas.com.br/img/of1.webp"
+		/>
 		<meta name="theme-color" content="#D72A2A" />
 		<link rel="canonical" href="https://automec.autotechsistemas.com.br/" />
 		<meta name="geo.region" content="BR-MG" />
-		<meta name="geo.placename" content="Belo Horizonte" />
-		<link rel="icon" type="image/png" href="logo.png" />
-		<link rel="apple-touch-icon" href="logo.png" />
-		<script type="application/ld+json">
-			[
-				{
-					"@context": "https://schema.org",
-					"@type": ["AutoRepair", "LocalBusiness"],
-					"name": "AutoMec Oficina Mecânica — Uberlândia",
-					"telephone": "+5534912341234",
-					"url": "https://automec.autotechsistemas.com.br/",
-					"image": "https://www.automec.com.br/fachada-savassi.jpg",
-					"address": {
-						"@type": "PostalAddress",
-						"streetAddress": "Rua Fernandes Tourinho, 487",
-						"addressLocality": "Belo Horizonte",
-						"addressRegion": "MG",
-						"postalCode": "30112-000",
-						"addressCountry": "BR"
-					},
-					"openingHours": ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"],
-					"aggregateRating": {
-						"@type": "AggregateRating",
-						"ratingValue": "4.9",
-						"reviewCount": "847"
-					},
-					"hasMap": "https://maps.google.com/?q=Av+João+Naves+de+Ávila+2121+Uberlândia+MG"
-				},
-				{
-					"@context": "https://schema.org",
-					"@type": ["AutoRepair", "LocalBusiness"],
-					"name": "AutoMec Oficina Mecânica — Contagem",
-					"telephone": "+553132001002",
-					"address": {
-						"@type": "PostalAddress",
-						"streetAddress": "Av. João César de Oliveira, 1200",
-						"addressLocality": "Contagem",
-						"addressRegion": "MG",
-						"postalCode": "32310-000",
-						"addressCountry": "BR"
-					},
-					"openingHours": ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"]
-				},
-				{
-					"@context": "https://schema.org",
-					"@type": ["AutoRepair", "LocalBusiness"],
-					"name": "AutoMec Oficina Mecânica — Betim",
-					"telephone": "+553132001003",
-					"address": {
-						"@type": "PostalAddress",
-						"streetAddress": "Rua Cachoeira do Campo, 340",
-						"addressLocality": "Betim",
-						"addressRegion": "MG",
-						"postalCode": "32600-000",
-						"addressCountry": "BR"
-					},
-					"openingHours": ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"]
-				}
-			]
-		</script>
+		<meta name="geo.placename" content="Uberlandia" />
+		<link rel="icon" type="image/png" href="img/logo.png" />
+		<link rel="apple-touch-icon" href="img/logo.png" />
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "FAQPage",
-				"mainEntity": [
+				"@graph": [
 					{
-						"@type": "Question",
-						"name": "O diagnóstico eletrônico é gratuito?",
-						"acceptedAnswer": {
-							"@type": "Answer",
-							"text": "Sim, o diagnóstico eletrônico é gratuito para todos os clientes que realizem serviços na AutoMec."
+						"@type": "Organization",
+						"@id": "https://automec.autotechsistemas.com.br/#organization",
+						"name": "AutoMec",
+						"url": "https://automec.autotechsistemas.com.br/",
+						"logo": {
+							"@type": "ImageObject",
+							"url": "https://automec.autotechsistemas.com.br/img/logo.png"
+						},
+						"image": "https://automec.autotechsistemas.com.br/img/of1.webp",
+						"description": "Rede de oficinas mecanicas com atendimento em Uberlandia, Uberaba e Monte Carmelo, especializada em diagnostico, revisao e reparo automotivo.",
+						"email": "mailto:automec@gmail.com",
+						"telephone": "+553432001001",
+						"sameAs": []
+					},
+					{
+						"@type": "WebSite",
+						"@id": "https://automec.autotechsistemas.com.br/#website",
+						"url": "https://automec.autotechsistemas.com.br/",
+						"name": "AutoMec",
+						"inLanguage": "pt-BR",
+						"publisher": {
+							"@id": "https://automec.autotechsistemas.com.br/#organization"
 						}
 					},
 					{
-						"@type": "Question",
-						"name": "Atendem carros importados em BH?",
-						"acceptedAnswer": {
-							"@type": "Answer",
-							"text": "Sim. Atendemos BMW, Audi, Mercedes-Benz, Volvo, Porsche, Jeep e mais com técnicos certificados em Belo Horizonte, Contagem e Betim."
-						}
+						"@type": "WebPage",
+						"@id": "https://automec.autotechsistemas.com.br/#webpage",
+						"url": "https://automec.autotechsistemas.com.br/",
+						"name": "AutoMec - Oficina Mecanica em Uberlandia, Uberaba e Monte Carmelo",
+						"isPartOf": {
+							"@id": "https://automec.autotechsistemas.com.br/#website"
+						},
+						"about": {
+							"@id": "https://automec.autotechsistemas.com.br/#organization"
+						},
+						"description": "Oficina mecanica em Uberlandia, Uberaba e Monte Carmelo com diagnostico eletronico, revisao preventiva, servicos para importados e garantia.",
+						"inLanguage": "pt-BR"
 					},
 					{
-						"@type": "Question",
-						"name": "Quanto tempo leva uma revisão?",
-						"acceptedAnswer": {
-							"@type": "Answer",
-							"text": "Revisões simples como troca de óleo levam cerca de 30 minutos. Reparos mais complexos de 1 a 3 dias úteis, sempre com prazo informado antes do serviço."
-						}
+						"@type": "ItemList",
+						"name": "Principais servicos AutoMec",
+						"itemListElement": [
+							{
+								"@type": "ListItem",
+								"position": 1,
+								"item": { "@type": "Service", "name": "Diagnostico eletronico" }
+							},
+							{
+								"@type": "ListItem",
+								"position": 2,
+								"item": { "@type": "Service", "name": "Revisao preventiva" }
+							},
+							{
+								"@type": "ListItem",
+								"position": 3,
+								"item": { "@type": "Service", "name": "Reparo de motor e cambio" }
+							}
+						]
+					},
+					{
+						"@type": "AutoRepair",
+						"@id": "https://automec.autotechsistemas.com.br/#uberlandia",
+						"name": "AutoMec Uberlandia",
+						"url": "https://automec.autotechsistemas.com.br/",
+						"image": "https://automec.autotechsistemas.com.br/img/of1.webp",
+						"telephone": "+553432001001",
+						"email": "automec@gmail.com",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "Rua Fernandes Tourinho, 487",
+							"addressLocality": "Uberlandia",
+							"addressRegion": "MG",
+							"postalCode": "38408-100",
+							"addressCountry": "BR"
+						},
+						"openingHours": ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"]
+					},
+					{
+						"@type": "AutoRepair",
+						"@id": "https://automec.autotechsistemas.com.br/#uberaba",
+						"name": "AutoMec Uberaba",
+						"url": "https://automec.autotechsistemas.com.br/",
+						"image": "https://automec.autotechsistemas.com.br/img/of2.webp",
+						"telephone": "+553432001002",
+						"email": "automec@gmail.com",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "Rua Vigario Dantas, 680",
+							"addressLocality": "Uberaba",
+							"addressRegion": "MG",
+							"postalCode": "38010-200",
+							"addressCountry": "BR"
+						},
+						"openingHours": ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"]
+					},
+					{
+						"@type": "AutoRepair",
+						"@id": "https://automec.autotechsistemas.com.br/#monte-carmelo",
+						"name": "AutoMec Monte Carmelo",
+						"url": "https://automec.autotechsistemas.com.br/",
+						"image": "https://automec.autotechsistemas.com.br/img/of3.jpeg",
+						"telephone": "+553432001003",
+						"email": "automec@gmail.com",
+						"address": {
+							"@type": "PostalAddress",
+							"streetAddress": "Rua Sete de Setembro, 415",
+							"addressLocality": "Monte Carmelo",
+							"addressRegion": "MG",
+							"postalCode": "38500-000",
+							"addressCountry": "BR"
+						},
+						"openingHours": ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"]
 					}
 				]
 			}
@@ -3628,7 +3696,7 @@
 						aria-label="AutoMec — Página Inicial"
 					>
 						<img
-							src="logo.png"
+							src="img/logo.png"
 							alt="AutoMec Oficina Mecânica Premium"
 							class="logo-img-el"
 						/>
@@ -3912,7 +3980,7 @@
 				<div class="svc-grid">
 					<div class="svc-card rv">
 						<img
-							src="freio.webp"
+							src="img/freio.webp"
 							alt="Reparo de freios"
 							loading="lazy"
 						/>
@@ -3931,7 +3999,7 @@
 					</div>
 					<div class="svc-card rv d1">
 						<img
-							src="motor.jpg"
+							src="img/motor.jpg"
 							alt="Reparo de motor"
 							loading="lazy"
 						/>
@@ -3950,7 +4018,7 @@
 					</div>
 					<div class="svc-card rv">
 						<img
-							src="preventiva.jpg"
+							src="img/preventiva.jpg"
 							alt="Manutenção preventiva"
 							loading="lazy"
 						/>
@@ -3969,7 +4037,7 @@
 					</div>
 					<div class="svc-card rv d1">
 						<img
-							src="roda.webp"
+							src="img/roda.webp"
 							alt="Pneus e rodas"
 							loading="lazy"
 						/>
@@ -3995,7 +4063,7 @@
 					<!-- Car PNG — bleeds from viewport left edge. Replace src with c7.png -->
 					<div class="book-car-slot">
 						<img
-							src="c7.png"
+							src="img/c7.png"
 							alt="Carro AutoMec sem fundo"
 							loading="lazy"
 						/>
@@ -4234,7 +4302,7 @@
 					</div>
 					<!-- Car PNG — replace src with your file path. Bleeds to right viewport edge. -->
 					<div class="proc-car-slot rvr">
-						<img src="c1.png" alt="Carro AutoMec sem fundo" />
+						<img src="img/c1.png" alt="Carro AutoMec sem fundo" />
 					</div>
 				</div>
 			</section>
@@ -4306,7 +4374,7 @@
 							></a>
 						</div>
 						<div class="why-car-slot">
-							<img src="c2.png" alt="Carro AutoMec sem fundo" />
+							<img src="img/c2.png" alt="Carro AutoMec sem fundo" />
 						</div>
 					</div>
 					<div class="why-panel" id="tp1">
@@ -4338,7 +4406,7 @@
 							></a>
 						</div>
 						<div class="why-car-slot">
-							<img src="c3.png" alt="Carro AutoMec sem fundo" />
+							<img src="img/c3.png" alt="Carro AutoMec sem fundo" />
 						</div>
 					</div>
 					<div class="why-panel" id="tp2">
@@ -4364,7 +4432,7 @@
 							></a>
 						</div>
 						<div class="why-car-slot">
-							<img src="c4.png" alt="Carro AutoMec sem fundo" />
+							<img src="img/c4.png" alt="Carro AutoMec sem fundo" />
 						</div>
 					</div>
 				</div>
@@ -4622,28 +4690,28 @@
 					<div class="exp-mosaic">
 						<div class="exp-img ei1 rv">
 							<img
-								src="e1.webp"
+								src="img/e1.webp"
 								alt="AutoMec Experience circuito"
 								loading="lazy"
 							/>
 						</div>
 						<div class="exp-img rv d1">
 							<img
-								src="e2.jpg"
+								src="img/e2.jpg"
 								alt="Lineup evento"
 								loading="lazy"
 							/>
 						</div>
 						<div class="exp-img rv d2">
 							<img
-								src="e3.webp"
+								src="img/e3.webp"
 								alt="Pit lane"
 								loading="lazy"
 							/>
 						</div>
 						<div class="exp-img ei4 rv d3">
 							<img
-								src="e4.jpg"
+								src="img/e4.jpg"
 								alt="Carro preparado"
 								loading="lazy"
 							/>
@@ -4842,7 +4910,7 @@
 					</div>
 					<!-- c6.png — PNG sem fundo, sangra pela borda direita da tela -->
 					<div class="faq-car-slot">
-						<img src="c5.webp" alt="Carro AutoMec sem fundo" />
+						<img src="img/c5.webp" alt="Carro AutoMec sem fundo" />
 					</div>
 				</div>
 			</section>
@@ -4896,7 +4964,7 @@
 							aria-controls="mrc-bmw"
 						>
 							<img
-								src="bmw.png"
+								src="img/bmw.png"
 								alt="Logo BMW"
 								width="60"
 								height="60"
@@ -5012,7 +5080,7 @@
 							aria-controls="mrc-audi"
 						>
 							<img
-								src="audi.png"
+								src="img/audi.png"
 								alt="Logo Audi"
 								width="60"
 								height="60"
@@ -5121,7 +5189,7 @@
 							aria-controls="mrc-mercedes"
 						>
 							<img
-								src="mercedes.png"
+								src="img/mercedes.png"
 								alt="Logo Mercedes"
 								width="60"
 								height="60"
@@ -5230,7 +5298,7 @@
 							aria-controls="mrc-porsche"
 						>
 							<img
-								src="porsche.png"
+								src="img/porsche.png"
 								alt="Logo Porsche"
 								width="60"
 								height="60"
@@ -5344,7 +5412,7 @@
 							aria-controls="mrc-toyota"
 						>
 							<img
-								src="toyota.png"
+								src="img/toyota.png"
 								alt="Logo Toyota"
 								width="60"
 								height="60"
@@ -5460,7 +5528,7 @@
 							aria-controls="mrc-volvo"
 						>
 							<img
-								src="volvo.png"
+								src="img/volvo.png"
 								alt="Logo Volvo"
 								width="60"
 								height="60"
@@ -5576,7 +5644,7 @@
 							aria-controls="mrc-jeep"
 						>
 							<img
-								src="jeep.png"
+								src="img/jeep.png"
 								alt="Logo Jeep"
 								width="60"
 								height="60"
@@ -5675,7 +5743,7 @@
 						<!-- Centre badge with AutoMec logo -->
 						<div class="mrc-badge" aria-hidden="true">
 							<img
-								src="logo.png"
+								src="img/logo.png"
 								alt=""
 								width="120"
 								height="60"
@@ -5743,7 +5811,7 @@
 						<article class="blog-card rv">
 							<div class="blog-img-wrap">
 								<img
-									src="cambio.jpeg"
+									src="img/cambio.jpeg"
 									alt="Revisão de câmbio automático"
 									loading="lazy"
 								/>
@@ -5752,7 +5820,7 @@
 								<span class="blog-date">21 Março 2026</span>
 							</div>
 							<h3 class="blog-card-title">
-								<a href="#"
+								<a href="blog/revisao-cambio-automatico.html"
 									>Quando Fazer a Revisão do Câmbio
 									Automático?</a
 								>
@@ -5762,7 +5830,7 @@
 						<article class="blog-card rv d1">
 							<div class="blog-img-wrap">
 								<img
-									src="revisao.jpeg"
+									src="img/revisao.jpeg"
 									alt="Revisão BMW fora da concessionária"
 									loading="lazy"
 								/>
@@ -5771,7 +5839,7 @@
 								<span class="blog-date">21 Março 2026</span>
 							</div>
 							<h3 class="blog-card-title">
-								<a href="#"
+								<a href="blog/revisao-bmw-fora-concessionaria.html"
 									>Revisão de BMW Fora da Concessionária Vale
 									a Pena?</a
 								>
@@ -5781,7 +5849,7 @@
 						<article class="blog-card rv d2">
 							<div class="blog-img-wrap">
 								<img
-									src="eletronica.jpg"
+									src="img/eletronica.jpg"
 									alt="Problema eletrônico no carro"
 									loading="lazy"
 								/>
@@ -5790,7 +5858,7 @@
 								<span class="blog-date">21 Março 2026</span>
 							</div>
 							<h3 class="blog-card-title">
-								<a href="#"
+								<a href="blog/problema-eletronico-carro.html"
 									>Como Saber se seu Carro tem Problema
 									Eletrônico?</a
 								>
@@ -5827,7 +5895,7 @@
 						>
 							<div class="loc-facade">
 								<img
-									src="of1.webp"
+									src="img/of1.webp"
 									alt="Fachada AutoMec Uberlândia MG"
 									loading="lazy"
 								/>
@@ -5893,7 +5961,7 @@
 						>
 							<div class="loc-facade">
 								<img
-									src="of2.webp"
+									src="img/of2.webp"
 									alt="Fachada AutoMec Uberaba MG"
 									loading="lazy"
 								/>
@@ -5959,7 +6027,7 @@
 						>
 							<div class="loc-facade">
 								<img
-									src="of3.jpeg"
+									src="img/of3.jpeg"
 									alt="Fachada AutoMec Monte Carmelo MG"
 									loading="lazy"
 								/>
@@ -6214,7 +6282,7 @@
 							class="logo logo-img"
 							aria-label="AutoMec — Página Inicial"
 							><img
-								src="logo.png"
+								src="img/logo.png"
 								alt="AutoMec"
 								class="logo-img-el"
 								width="120"
